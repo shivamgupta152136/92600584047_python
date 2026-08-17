@@ -1,0 +1,23 @@
+'''Write a program to perform arithmetic
+relational and logical operations using Python
+operators.'''
+a=int(input('enter value for a:'))
+b=int(input('enter value for a:'))
+print('\n.......Arithmethic Operations')
+print('A+B:',a+b)
+print('A-B:',a-b)
+print('A*B:',a*b)
+print('A/B:',a/b)
+print('A%B:',a%b)
+print('\n.......Relational Operations')
+print('A>B:',a>b)
+print('A<B:',a<b)
+print('A>=B:',a>=b)
+print('A<=B:',a<=b)
+print('A==B:',a==b)
+print('compare identity:',a is b)
+print('A!=B:',a!=b)
+print('\n.......logical Operations')
+print('AND :',a>=b and a==b)
+print('OR:',a>b or b>a)
+print('NOT:',not(a>b))
