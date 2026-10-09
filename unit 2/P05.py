@@ -16,6 +16,6 @@ for j in range(1, 6):
 print("\n--- 3. Demonstrating 'pass' ---")
 for k in range(1, 6):
     if k == 3:
-        pass  # Placeholder: No action taken, loop proceeds normally
+        pass
         print("Encountered pass! Doing nothing and proceeding.")
     print(f"Number: {k}")
